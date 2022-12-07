@@ -1,3 +1,4 @@
+//One
 // Radian To Degree
 function radianToDegree(radianNumber) {
   if (typeof radianNumber === "number") {
@@ -6,6 +7,8 @@ function radianToDegree(radianNumber) {
   }
   return "Please Enter a radian number";
 }
+
+//Two
 // check whether the given file name is a javascript file or not
 function isJavaScriptFile(file) {
   if (typeof file === "string") {
@@ -14,6 +17,8 @@ function isJavaScriptFile(file) {
   }
   return "please Enter string js file";
 }
+
+//Three
 // Calculate the total oil price that i have to pay
 function oilPrice(diesel, petrol, octen) {
   if (
@@ -28,6 +33,8 @@ function oilPrice(diesel, petrol, octen) {
   }
   return "Enter a valid Number";
 }
+
+//four
 // Return Public bus fare for remaining Person
 function publicBusFare(person) {
   if (typeof person === "number") {
@@ -47,6 +54,8 @@ function publicBusFare(person) {
   }
   return "Enter a valid Number";
 }
+
+//five
 // Find out Best Friend between two friends
 function isBestFriend(friend1, friend2) {
   if (typeof friend1 === "object" && typeof friend2 === "object") {
@@ -57,3 +66,5 @@ function isBestFriend(friend1, friend2) {
   }
   return "Enter a Object";
 }
+
+//six
