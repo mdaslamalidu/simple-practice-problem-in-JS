@@ -68,3 +68,9 @@ function isBestFriend(friend1, friend2) {
 }
 
 //six
+//Power Calculator
+function circuitPower(voltage, current) {
+  return voltage * current;
+}
+
+//seven
