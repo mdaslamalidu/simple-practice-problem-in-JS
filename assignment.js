@@ -80,4 +80,7 @@ function nextEdge(side1, side2) {
 }
 
 //Eignt
-//
+//Return Something to Me!
+function giveMeSomething(a) {
+  return "something" + " " + a;
+}
