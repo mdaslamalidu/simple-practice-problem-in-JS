@@ -84,3 +84,12 @@ function nextEdge(side1, side2) {
 function giveMeSomething(a) {
   return "something" + " " + a;
 }
+
+//Nine
+//Convert Hours into Seconds
+function howManySeconds(hours) {
+  return hours * (60 * 60);
+}
+
+//Ten
+//
