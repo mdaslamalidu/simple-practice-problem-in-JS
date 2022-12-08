@@ -92,4 +92,9 @@ function howManySeconds(hours) {
 }
 
 //Ten
-//
+//Buggy Code (Part 7)
+function swap(a, b) {
+  x = a;
+  y = b;
+  return [y, x];
+}
