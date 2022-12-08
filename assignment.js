@@ -74,3 +74,10 @@ function circuitPower(voltage, current) {
 }
 
 //seven
+//Maximum Edge of a Triangle
+function nextEdge(side1, side2) {
+  return side1 + side2 - 1;
+}
+
+//Eignt
+//
