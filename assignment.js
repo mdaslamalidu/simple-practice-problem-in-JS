@@ -114,3 +114,11 @@ function lessThanOrEqualToZero(num) {
     return false;
   }
 }
+
+// Thirteen
+//Basketball Points
+function points(twoPointers, threePointers) {
+  return twoPointers * 2 + threePointers * 3;
+}
+
+//fourteen
