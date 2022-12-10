@@ -105,4 +105,12 @@ function findPerimeter(length, width) {
   return length + length + (width + width);
 }
 
-console.log(findPerimeter(6, 7));
+// Twelve
+// Is the Number Less than or Equal to Zero?
+function lessThanOrEqualToZero(num) {
+  if (num <= 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
