@@ -98,3 +98,11 @@ function swap(a, b) {
   y = b;
   return [y, x];
 }
+
+// Eleven
+//Find the Perimeter of a Rectangle
+function findPerimeter(length, width) {
+  return length + length + (width + width);
+}
+
+console.log(findPerimeter(6, 7));
