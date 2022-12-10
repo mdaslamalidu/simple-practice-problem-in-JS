@@ -122,3 +122,12 @@ function points(twoPointers, threePointers) {
 }
 
 //fourteen
+//Basic Variable Assignment
+function nameString(name) {
+  var b = " Ali";
+  var result = name + b;
+  return result;
+}
+
+//fifteen
+//
