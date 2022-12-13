@@ -166,4 +166,15 @@ function animals(chickens, cows, pigs) {
   return chickenSum + cowsSum + pigsSum;
 }
 
-console.log(animals(2, 3, 5));
+// console.log(animals(2, 3, 5));
+
+// eignteen
+// Using the "&&" Operator
+function and(a, b) {
+  if (a && b) {
+    return true;
+  }
+  return false;
+}
+
+// console.log(false, true);
