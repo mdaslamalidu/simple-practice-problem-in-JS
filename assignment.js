@@ -1,4 +1,7 @@
 //One
+
+const { string } = require("prop-types");
+
 // Radian To Degree
 function radianToDegree(radianNumber) {
   if (typeof radianNumber === "number") {
@@ -140,4 +143,18 @@ function lessThan100(a, b) {
   }
 }
 
-console.log(lessThan100(50, 5));
+// sixteen
+// buggy code part 5
+function printArray(number) {
+  var newArray = [];
+
+  for (var i = 1; i <= number; ) {
+    newArray.push(i);
+  }
+
+  return newArray;
+}
+
+// console.log(printArray(1));
+
+// seventen
