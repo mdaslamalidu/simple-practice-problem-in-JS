@@ -158,3 +158,12 @@ function printArray(number) {
 // console.log(printArray(1));
 
 // seventen
+// The Farm Problem
+function animals(chickens, cows, pigs) {
+  let chickenSum = chickens * 2;
+  let cowsSum = cows * 4;
+  let pigsSum = pigs * 4;
+  return chickenSum + cowsSum + pigsSum;
+}
+
+console.log(animals(2, 3, 5));
